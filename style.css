@@ -1,14 +1,59 @@
 /* ////// Mona Sans  */
 @font-face {
-    font-family: Mona-Sans;
-    src: url(./Mona-Sans/Mona-Sans.ttf);
+  font-family: Mona-Sans;
+  src: url(./Mona-Sans/Mona-Sans.ttf);
 }
 /* ///////// universal setting */
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Mona-Sans;
-    text-decoration: none;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Mona-Sans;
+  text-decoration: none;
+  box-sizing: border-box;
 }
 /* /////////// CSS Variables */
+:root {
+  --text-creamy-color: #e6edf3;
+  --text-grayishblack-color: #1f2328;
+  --text-grayishlight-color: #6e7781;
+  --primary-bg-color: #0d1117;
+  --secondary-bg-color: #ffffff;
+  --footer-bg-color: #f6f8fa;
+  --footer-icon-color: #6e7781;
+  --primary-padding: 1rem;
+}
+/* ////////////////////////////////////////////////////// Navbar ////////////////////////////////////// */
+/* ///// container  */
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-self: center;
+  background-color: var(--primary-bg-color);
+  color: var(--text-creamy-color);
+  width: 100%;
+  height: 4rem;
+}
+.navbar-github-logo h4 {
+  font-weight: 500;
+}
+.navbar-github-logo {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.navbar-github-logo i {
+  color: var(--text-creamy-color);
+  font-size: 2.3rem;
+  margin-left: 2rem;
+}
+.navbar-right-div{
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    margin-right: 4rem;
+}
+.navbar-right-div h4 a{
+    color: var(--text-creamy-color);
+    font-weight: 300;
+    font-size: .9rem;
+}
