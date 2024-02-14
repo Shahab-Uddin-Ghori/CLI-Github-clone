@@ -56,14 +56,14 @@
 }
 .navbar-right-div h4 a{
     color: var(--text-creamy-color);
-    font-weight: 300;
-    font-size: .9rem;
+    font-weight: 400;
+    font-size: .95rem;
 }
 /* ////////////////////////////////////////////// Navbar End////////////////////////////////////// */
 
 
 /* ////////////////////////////////////////////////// Main /////////////////////////////////// */
-/* //////top heading container  */
+/* ////// sec 1 top heading container  */
 .top-heading-container{
     display: flex;
     align-items: center;
@@ -106,5 +106,71 @@
 .i-inst a{
     color: var(--text-creamy-color);
 }
-/* //////top heading container  end*/
+/* //////sec 1 top heading container  end*/
+
+/* /////// sec 2 cli-interface-sec-container /// */
+.cli-interface-sec-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--primary-bg-color);
+    width: 100%;
+    background-image: url(./img/light-glow.svg);
+    background-position: center;
+    background-size: cover;
+}
+.cli-interface-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+    padding: 2rem;
+}
+.cli-interface-top-content{
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.5rem;
+    color: var(--text-creamy-color);
+}
+.cli-interface-top-content span{
+    color:#2F80F7 ;
+}
+.cli-interface-top-content p a{
+    color: var(--text-creamy-color);
+}
+.cli-interface-top-content:nth-child(2){
+    font-size: 1rem;
+}
+.cli-interface{
+    width: 70vw;
+    height: 60vh;
+    background-color: black;
+    border-radius: .4rem;
+    border: 1px solid var(--text-grayishblack-color);
+}
+.cli-interface-inner-nav{
+    display: flex;
+    justify-content: space-between;
+    padding: .6rem .8rem;
+}
+.circle-container{
+    display: flex;
+    gap: .4rem;
+}
+.cirle{
+    width: .8rem;
+    height: .8rem;
+    border-radius: 50%;
+    background-color: var(--text-grayishblack-color);
+}
+.cli-interface-inner-nav img{
+ width: 1.7rem;
+ color: var(--text-creamy-color);
+}
+.cli-interface-bottom-content{
+    color: var(--text-creamy-color);
+}
+/* /////// sec 2 cli-interface-sec-container end /// */
 /* ////////////////////////////////////////////////// Main /////////////////////////////////// */
