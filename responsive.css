@@ -52,15 +52,15 @@
         line-height: 32px;
         color: var(--text-grayishlight-color);
         display: inline-block;
-
     }
+    
 }
 @media screen and (max-width:620px) {
     .top-heading-scr{
         font-size: 1.8rem;
     }
-    .top-heading-para-scr{
-        font-size: 1rem;
+    .top-heading-para-scr h1{
+        font-size: 2rem;
     }
     .btn{
         padding: .8rem;
@@ -74,6 +74,29 @@
         gap: 1rem;
         margin-right: 1rem;
     }
+    .cli-interface-top-content{
+        font-size: 1rem;
+    }
+    .cli-interface-bottom-content h2{
+        font-size: 1rem;
+      }
+      .cli-interface-top-content:nth-child(2) {
+        font-size: .8rem;
+      }
+      .cli-interface {
+        width: 80vw;
+        height: 60vh;
+      }
+      .cli-interface-inner-nav img {
+        width: 1.2rem;
+      }
+      .cli-interface-bottom-content h2 {
+        font-size: 1rem;
+      }
+      .cirle {
+        width: 0.7rem;
+        height: 0.7rem;
+      }
 }
 @media screen and (max-width:450px) {
     .navbar-github-logo i {
@@ -90,4 +113,20 @@
     .for-center{
         padding: 0 .5rem  0 .5rem;
     }
+    .cli-interface {
+        width: 70vw;
+        height: 60vh;
+      }
+      .cli-interface-inner-nav img {
+        width: 1rem;
+      }
+      .cli-interface-bottom-content h2 {
+        font-size: .8rem;
+      }
+      .btn {
+        padding: .7rem;
+        font-size: 1rem;
+        font-weight: 500;
+        border-radius: 0.4rem;
+      }
 }
