@@ -33,19 +33,21 @@
   width: 100%;
   height: 4rem;
 }
-.navbar-github-logo h4 {
-  font-weight: 500;
-}
+/* /////// logo container  */
 .navbar-github-logo {
   display: flex;
   align-items: center;
   gap: 0.5rem;
+}
+.navbar-github-logo h4 {
+  font-weight: 500;
 }
 .navbar-github-logo i {
   color: var(--text-creamy-color);
   font-size: 2.3rem;
   margin-left: 2rem;
 }
+/* ///////// navbar right div  */
 .navbar-right-div{
     display: flex;
     align-items: center;
@@ -57,3 +59,52 @@
     font-weight: 300;
     font-size: .9rem;
 }
+/* ////////////////////////////////////////////// Navbar End////////////////////////////////////// */
+
+
+/* ////////////////////////////////////////////////// Main /////////////////////////////////// */
+/* //////top heading container  */
+.top-heading-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--primary-bg-color);
+    padding: 2rem 0;
+}
+.top-heading h1{
+    font-size: 4.5rem;
+    font-weight: 800;
+    color: var(--text-creamy-color);
+}
+.top-heading-scr{
+    display: none;
+}
+.top-heading-para p{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: .5rem;
+    line-height: 32px;
+    color: var(--text-grayishlight-color);
+}
+.top-heading-para-scr{
+    display: none;
+}
+.btn{
+    /* width: 16rem; */
+    padding: 1rem;
+    background-color: var(--text-creamy-color);
+    color: var(--text-grayishblack-color);
+    font-size: 1.2rem;
+    font-weight: 500;
+    border: none;
+    border-radius: .5rem;
+    margin-top: 2rem;
+}
+.i-inst{
+    margin-top: 1rem;
+}
+.i-inst a{
+    color: var(--text-creamy-color);
+}
+/* //////top heading container  end*/
+/* ////////////////////////////////////////////////// Main /////////////////////////////////// */

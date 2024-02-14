@@ -1,0 +1,93 @@
+/* ////// Mona Sans  */
+@font-face {
+    font-family: Mona-Sans;
+    src: url(./Mona-Sans/Mona-Sans.ttf);
+  }
+  /* ///////// universal setting */
+  * {
+    margin: 0;
+    padding: 0;
+    font-family: Mona-Sans;
+    text-decoration: none;
+    box-sizing: border-box;
+  }
+  /* /////////// CSS Variables */
+  :root {
+    --text-creamy-color: #e6edf3;
+    --text-grayishblack-color: #1f2328;
+    --text-grayishlight-color: #6e7781;
+    --primary-bg-color: #0d1117;
+    --secondary-bg-color: #ffffff;
+    --footer-bg-color: #f6f8fa;
+    --footer-icon-color: #6e7781;
+    --primary-padding: 1rem;
+  }
+
+  /* ///////////// media query //////// */
+@media screen and (max-width:768px) {
+    .top-heading-container{
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        background-color: var(--primary-bg-color);
+    }  
+    .for-center{
+        padding: 0 .5rem  0 2rem;
+    }
+    .top-heading h1{
+        display: none;
+    }
+    .top-heading-scr{
+        display: inline-block;
+        font-size: 2.2rem;
+        color:var(--text-creamy-color) ;
+    }
+    .top-heading-para p{
+        display: none;
+    }
+    .top-heading-para-scr{
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-top: .5rem;
+        line-height: 32px;
+        color: var(--text-grayishlight-color);
+        display: inline-block;
+
+    }
+}
+@media screen and (max-width:620px) {
+    .top-heading-scr{
+        font-size: 1.8rem;
+    }
+    .top-heading-para-scr{
+        font-size: 1rem;
+    }
+    .btn{
+        padding: .8rem;
+        font-size: 1rem;
+        border-radius: .4rem;
+    }
+    .i-inst a{
+        font-size: .8rem;
+    }
+    .navbar-right-div{
+        gap: 1rem;
+        margin-right: 1rem;
+    }
+}
+@media screen and (max-width:450px) {
+    .navbar-github-logo i {
+        font-size: 2rem;
+        margin-left: .5rem;
+      }
+    .navbar-github-logo h4 {
+        font-size: .8rem;
+
+    }
+    .navbar-right-div h4 a{
+        font-size: .8rem;
+    }
+    .for-center{
+        padding: 0 .5rem  0 .5rem;
+    }
+}
