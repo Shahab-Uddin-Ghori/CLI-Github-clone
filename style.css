@@ -11,6 +11,9 @@
   text-decoration: none;
   box-sizing: border-box;
 }
+.boder:hover{
+  border-bottom: 2px solid var(--text-creamy-color) ;
+}
 /* /////////// CSS Variables */
 :root {
   --text-creamy-color: #e6edf3;
@@ -97,6 +100,12 @@
   border: none;
   border-radius: 0.5rem;
   margin-top: 2rem;
+  transition: .2s ease;
+}
+.btn:hover{
+  cursor: pointer;
+  box-shadow: 0 4rem 3.4rem rgba(203, 203, 203, 0.052);
+
 }
 .i-inst {
   margin-top: 1rem;
@@ -162,6 +171,14 @@
   height: 0.8rem;
   border-radius: 50%;
   background-color: var(--text-grayishblack-color);
+}
+.cirle:first-child:hover{
+  background-color: green;
+}
+.cirle:nth-child(2):hover {
+  background-color: blue;
+}.cirle:nth-child(3):hover {
+  background-color: red;
 }
 .cli-interface-inner-nav img {
   width: 1.4rem;
