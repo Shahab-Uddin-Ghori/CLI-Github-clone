@@ -173,13 +173,13 @@
   background-color: var(--text-grayishblack-color);
 }
 .cirle:first-child:hover {
-  background-color: green;
+  background-color: red;
 }
 .cirle:nth-child(2):hover {
-  background-color: blue;
+  background-color: orange;
 }
 .cirle:nth-child(3):hover {
-  background-color: red;
+  background-color: green;
 }
 .cli-interface-inner-nav img {
   width: 1.4rem;
