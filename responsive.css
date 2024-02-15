@@ -102,6 +102,11 @@
   .sec3-links h3 {
     font-size: 1.5rem;
   }
+  .footer-container{
+    padding: 1rem;
+    width: 100%;
+    /* background: red; */
+  }
 }
 @media screen and (max-width: 620px) {
   .top-heading-scr {
@@ -240,5 +245,13 @@
   }
   .li-heading{
     font-size: .9rem;
+  }
+  .footer-container{
+    flex-direction: column-reverse;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem .5rem;
+
+    /* background: red; */
   }
 }
