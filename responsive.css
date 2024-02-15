@@ -1,132 +1,191 @@
 /* ////// Mona Sans  */
 @font-face {
-    font-family: Mona-Sans;
-    src: url(./Mona-Sans/Mona-Sans.ttf);
+  font-family: Mona-Sans;
+  src: url(./Mona-Sans/Mona-Sans.ttf);
+}
+/* ///////// universal setting */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Mona-Sans;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+/* /////////// CSS Variables */
+:root {
+  --text-creamy-color: #e6edf3;
+  --text-grayishblack-color: #1f2328;
+  --text-grayishlight-color: #6e7781;
+  --primary-bg-color: #0d1117;
+  --secondary-bg-color: #ffffff;
+  --footer-bg-color: #f6f8fa;
+  --footer-icon-color: #6e7781;
+  --primary-padding: 1rem;
+}
+
+/* ///////////// media query //////// */
+@media screen and (max-width: 1080px) {
+  .sec3-container {
+    padding: 3rem 1rem 0 1rem;
+    justify-content: flex-start;
   }
-  /* ///////// universal setting */
-  * {
-    margin: 0;
-    padding: 0;
-    font-family: Mona-Sans;
-    text-decoration: none;
-    box-sizing: border-box;
+  .sec3-link-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
   }
-  /* /////////// CSS Variables */
-  :root {
-    --text-creamy-color: #e6edf3;
-    --text-grayishblack-color: #1f2328;
-    --text-grayishlight-color: #6e7781;
-    --primary-bg-color: #0d1117;
-    --secondary-bg-color: #ffffff;
-    --footer-bg-color: #f6f8fa;
-    --footer-icon-color: #6e7781;
-    --primary-padding: 1rem;
+  .sec3-links p {
+    max-width: 100%;
+  }
+  .sec3-links {
+    margin-top: 1rem;
+    display: block;
+    line-height: 24px;
+  }
+  .sec-heading h1 {
+    font-size: 3rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .top-heading-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    background-color: var(--primary-bg-color);
+  }
+  .for-center {
+    padding: 0 0.5rem 0 2rem;
+  }
+  .top-heading h1 {
+    display: none;
+  }
+  .top-heading-scr {
+    display: inline-block;
+    font-size: 2.2rem;
+    color: var(--text-creamy-color);
+  }
+  .top-heading-para p {
+    display: none;
+  }
+  .top-heading-para-scr {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-top: 0.5rem;
+    line-height: 32px;
+    color: var(--text-grayishlight-color);
+    display: inline-block;
+  }
+  .sec-heading h1 {
+    font-size: 2.5rem;
+  }
+  .sec3-links h3 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (max-width: 620px) {
+  .top-heading-scr {
+    font-size: 1.8rem;
+  }
+  .top-heading-para-scr h1 {
+    font-size: 2rem;
+  }
+  .btn {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border-radius: 0.4rem;
+  }
+  .i-inst a {
+    font-size: 0.8rem;
+  }
+  .navbar-right-div {
+    gap: 1rem;
+    margin-right: 1rem;
+  }
+  .cli-interface-top-content {
+    font-size: 1rem;
+  }
+  .cli-interface-bottom-content h2 {
+    font-size: 1rem;
+  }
+  .cli-interface-top-content:nth-child(2) {
+    font-size: 0.8rem;
+  }
+  .cli-interface {
+    width: 80vw;
+    height: 60vh;
+  }
+  .cli-interface-inner-nav img {
+    width: 1.2rem;
+  }
+  .cli-interface-bottom-content h2 {
+    font-size: 1rem;
+  }
+  .cirle {
+    width: 0.7rem;
+    height: 0.7rem;
+  }
+  .sec-heading h1 {
+    font-size: 1.8rem;
+  }
+  .sec3-links h3 {
+    font-size: 1.3rem;
   }
 
-  /* ///////////// media query //////// */
-@media screen and (max-width:768px) {
-    .top-heading-container{
-        display: flex;
-        align-items: center;
-        flex-direction: row;
-        background-color: var(--primary-bg-color);
-    }  
-    .for-center{
-        padding: 0 .5rem  0 2rem;
-    }
-    .top-heading h1{
-        display: none;
-    }
-    .top-heading-scr{
-        display: inline-block;
-        font-size: 2.2rem;
-        color:var(--text-creamy-color) ;
-    }
-    .top-heading-para p{
-        display: none;
-    }
-    .top-heading-para-scr{
-        font-size: 1.1rem;
-        font-weight: 500;
-        margin-top: .5rem;
-        line-height: 32px;
-        color: var(--text-grayishlight-color);
-        display: inline-block;
-    }
-    
+  .sec-4-text-container {
+    padding: 2rem 1rem;
+    width: 30rem;
+    gap: 1rem;
+    background-color: #fff;
+    /* background-color: red; */
+  }
+  .sec-4-text-container h1 {
+    font-size: 1.5rem;
+  }
+  .sec-4-text-container p {
+    font-size: 1rem;
+    color: var(--text-grayishlight-color);
+  }
+  .sec-4-text-container p a {
+    color: #0969da;
+  }
 }
-@media screen and (max-width:620px) {
-    .top-heading-scr{
-        font-size: 1.8rem;
-    }
-    .top-heading-para-scr h1{
-        font-size: 2rem;
-    }
-    .btn{
-        padding: .8rem;
-        font-size: 1rem;
-        border-radius: .4rem;
-    }
-    .i-inst a{
-        font-size: .8rem;
-    }
-    .navbar-right-div{
-        gap: 1rem;
-        margin-right: 1rem;
-    }
-    .cli-interface-top-content{
-        font-size: 1rem;
-    }
-    .cli-interface-bottom-content h2{
-        font-size: 1rem;
-      }
-      .cli-interface-top-content:nth-child(2) {
-        font-size: .8rem;
-      }
-      .cli-interface {
-        width: 80vw;
-        height: 60vh;
-      }
-      .cli-interface-inner-nav img {
-        width: 1.2rem;
-      }
-      .cli-interface-bottom-content h2 {
-        font-size: 1rem;
-      }
-      .cirle {
-        width: 0.7rem;
-        height: 0.7rem;
-      }
-}
-@media screen and (max-width:450px) {
-    .navbar-github-logo i {
-        font-size: 2rem;
-        margin-left: .5rem;
-      }
-    .navbar-github-logo h4 {
-        font-size: .8rem;
-
-    }
-    .navbar-right-div h4 a{
-        font-size: .8rem;
-    }
-    .for-center{
-        padding: 0 .5rem  0 .5rem;
-    }
-    .cli-interface {
-        width: 70vw;
-        height: 60vh;
-      }
-      .cli-interface-inner-nav img {
-        width: 1rem;
-      }
-      .cli-interface-bottom-content h2 {
-        font-size: .8rem;
-      }
-      .btn {
-        padding: .7rem;
-        font-size: 1rem;
-        font-weight: 500;
-        border-radius: 0.4rem;
-      }
+@media screen and (max-width: 450px) {
+  .navbar-github-logo i {
+    font-size: 2rem;
+    margin-left: 0.5rem;
+  }
+  .navbar-github-logo h4 {
+    font-size: 0.8rem;
+  }
+  .navbar-right-div h4 a {
+    font-size: 0.8rem;
+  }
+  .for-center {
+    padding: 0 0.5rem 0 0.5rem;
+  }
+  .cli-interface {
+    width: 70vw;
+    height: 60vh;
+  }
+  .cli-interface-inner-nav img {
+    width: 1rem;
+  }
+  .cli-interface-bottom-content h2 {
+    font-size: 0.8rem;
+  }
+  .btn {
+    padding: 0.7rem;
+    font-size: 1rem;
+    font-weight: 500;
+    border-radius: 0.4rem;
+  }
+  .sec-heading h1 {
+    font-size: 1.5rem;
+  }
+  .sec3-links h3 {
+    font-size: 1.2rem;
+  }
+  .sec-4-text-container p a {
+    font-size: .9rem;
+  }
 }
