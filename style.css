@@ -249,7 +249,8 @@
   /* background-color: red; */
 }
 .btn-color {
-  background-color: var(--primary-bg-color);
+  background: rgb(2,0,36);
+  background: linear-gradient(0deg, rgba(2,0,36,1) 32%, rgba(68,70,72,1) 100%);
   color: var(--text-creamy-color);
   margin-top: 0;
 }
