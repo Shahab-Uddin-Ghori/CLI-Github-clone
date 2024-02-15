@@ -10,9 +10,10 @@
   font-family: Mona-Sans;
   text-decoration: none;
   box-sizing: border-box;
+  list-style: none;
 }
-.boder:hover{
-  border-bottom: 2px solid var(--text-creamy-color) ;
+.boder:hover {
+  border-bottom: 2px solid var(--text-creamy-color);
 }
 /* /////////// CSS Variables */
 :root {
@@ -100,12 +101,11 @@
   border: none;
   border-radius: 0.5rem;
   margin-top: 2rem;
-  transition: .2s ease;
+  transition: 0.2s ease;
 }
-.btn:hover{
+.btn:hover {
   cursor: pointer;
   box-shadow: 0 4rem 3.4rem rgba(203, 203, 203, 0.052);
-
 }
 .i-inst {
   margin-top: 1rem;
@@ -172,12 +172,13 @@
   border-radius: 50%;
   background-color: var(--text-grayishblack-color);
 }
-.cirle:first-child:hover{
+.cirle:first-child:hover {
   background-color: green;
 }
 .cirle:nth-child(2):hover {
   background-color: blue;
-}.cirle:nth-child(3):hover {
+}
+.cirle:nth-child(3):hover {
   background-color: red;
 }
 .cli-interface-inner-nav img {
@@ -190,7 +191,7 @@
 /* /////// sec 2 cli-interface-sec-container end /// */
 
 /* //////// sec 3 /////////////////// */
-.sec3-container{
+.sec3-container {
   padding: 4rem 1rem 3rem 1rem;
   background-color: #fff;
   display: flex;
@@ -198,46 +199,47 @@
   align-items: center;
   gap: 3rem;
 }
-.sec-heading h1{
+.sec-heading h1 {
   font-size: 4rem;
   font-weight: 800;
   color: var(--primary-bg-color);
 }
-.sec3-link-container{
+.sec3-link-container {
   display: flex;
   gap: 3rem;
 }
-.sec3-links{
+.sec3-links {
   margin-top: 3.5rem;
   display: flex;
   flex-direction: column;
-  gap: .5rem;
+  gap: 0.5rem;
   line-height: 24px;
 }
-.sec3-links h3{
+.sec3-links h3 {
   font-size: 1.5rem;
-}.sec3-links p{
-  font-size: .9rem;
-  max-width: 15rem;
-  color: var(--text-grayishlight-color)       
 }
-.sec3-links a{
-  font-size: .9rem;
+.sec3-links p {
+  font-size: 0.9rem;
+  max-width: 15rem;
+  color: var(--text-grayishlight-color);
+}
+.sec3-links a {
+  font-size: 0.9rem;
   color: #0969da;
 }
 /* ///////////////// sec 4 //////////// */
-.sec4-container{
-background-image: url(./img/square-pattern.png);
-background-size: cover;
-background-position: center;
-width: 100%;
-height: 25rem;
-display: flex;
-justify-content: center;
-align-items: center;
-padding: 1rem;
+.sec4-container {
+  background-image: url(./img/square-pattern.png);
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  height: 25rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
 }
-.sec-4-text-container{
+.sec-4-text-container {
   display: flex;
   flex-direction: column;
   padding: 3rem 2rem;
@@ -246,16 +248,56 @@ padding: 1rem;
   background-color: #fff;
   /* background-color: red; */
 }
-.btn-color{
+.btn-color {
   background-color: var(--primary-bg-color);
   color: var(--text-creamy-color);
   margin-top: 0;
 }
-.sec-4-text-container p{
+.sec-4-text-container p {
   color: var(--text-grayishlight-color);
-}.sec-4-text-container p a{
+}
+.sec-4-text-container p a {
   color: #0969da;
 }
 /* ///////////////// sec 4 end//////////// */
 
+/* ////////////////// sec 5 //////////////  */
+.sec5-list-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  /* background-color: red; */
+  padding: 1rem .5rem .5rem 3rem;
+}
+
+.github-text-img{
+  /* background-color: #0969da; */
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start;
+  height: 14rem;
+  margin-right: auto;
+  width: 11rem;
+}
+.li-container{
+  align-self: center;
+  display: flex;
+  gap: 4rem;
+  /* background-color: yellow; */
+  font-size: .85rem;
+  line-height: 32px;
+  margin-right: auto;
+}
+.li-heading{
+  font-size: 1rem;
+  font-weight: 400;
+  color: var(--text-grayishblack-color);
+  margin-bottom: .5rem;
+}
+.li-link{
+  color: var(--text-grayishlight-color);
+  font-weight: 400;
+}
+/* ////////////////// sec 5 end //////////  */
 /* ////////////////////////////////////////////////// Main /////////////////////////////////// */
