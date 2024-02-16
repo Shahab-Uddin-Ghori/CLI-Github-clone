@@ -146,6 +146,8 @@
 }
 .cli-interface-top-content p a {
   color: var(--text-creamy-color);
+  font-size: 1rem;
+  font-weight: 500;
 }
 .cli-interface-top-content:nth-child(2) {
   font-size: 1rem;
@@ -186,6 +188,14 @@
   color: var(--text-creamy-color);
 }
 .cli-interface-bottom-content {
+  color: var(--text-creamy-color);
+}
+.cli-interface-content{
+  padding: 1rem;
+  /* background: burlywood; */
+  line-height: 32px;
+}
+.cli-interface-content p{
   color: var(--text-creamy-color);
 }
 /* /////// sec 2 cli-interface-sec-container end /// */
