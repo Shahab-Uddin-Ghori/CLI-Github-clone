@@ -190,12 +190,12 @@
 .cli-interface-bottom-content {
   color: var(--text-creamy-color);
 }
-.cli-interface-content{
+.cli-interface-content {
   padding: 1rem;
   /* background: burlywood; */
   line-height: 32px;
 }
-.cli-interface-content p{
+.cli-interface-content p {
   color: var(--text-creamy-color);
 }
 .blue-text {
@@ -204,7 +204,8 @@
 
 .yellow-text {
   color: rgb(255, 255, 58);
-}.green-text {
+}
+.green-text {
   color: rgb(42, 249, 42);
 }
 
@@ -269,13 +270,17 @@
   /* background-color: red; */
 }
 .btn-color {
-  background: rgb(2,0,36);
-  background: linear-gradient(0deg, rgba(2,0,36,1) 32%, rgba(68,70,72,1) 100%);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    0deg,
+    rgba(2, 0, 36, 1) 32%,
+    rgba(68, 70, 72, 1) 100%
+  );
   color: var(--text-creamy-color);
   margin-top: 0;
 }
 .btn-color:hover {
-  box-shadow: 0 .1rem 1rem rgba(255, 255, 255, 0.227) inset;
+  box-shadow: 0 0.1rem 1rem rgba(255, 255, 255, 0.227) inset;
 }
 .sec-4-text-container p {
   color: var(--text-grayishlight-color);
@@ -292,10 +297,10 @@
   align-items: center;
   width: 100%;
   /* background-color: red; */
-  padding: 1rem .5rem .5rem 3rem;
+  padding: 1rem 0.5rem 0.5rem 3rem;
 }
 
-.github-text-img{
+.github-text-img {
   /* background-color: #0969da; */
   display: flex;
   justify-content: flex-end;
@@ -304,61 +309,61 @@
   margin-right: auto;
   width: 11rem;
 }
-.li-container{
+.li-container {
   align-self: center;
   display: flex;
   gap: 4rem;
   /* background-color: yellow; */
-  font-size: .85rem;
+  font-size: 0.85rem;
   line-height: 32px;
   margin-right: auto;
 }
-.li-heading{
+.li-heading {
   font-size: 1rem;
   font-weight: 400;
   color: var(--text-grayishblack-color);
-  margin-bottom: .5rem;
+  margin-bottom: 0.5rem;
 }
-.li-link{
+.li-link {
   color: var(--text-grayishlight-color);
   font-weight: 400;
 }
 /* ////////////////// sec 5 end //////////  */
 /* ////////////////////////////////////////////////// Main /////////////////////////////////// */
 
-
 /* ////////////////////// footer ///////////////////////// */
 
-footer{
+footer {
   display: flex;
   justify-content: center;
   background-color: var(--footer-bg-color);
   width: 100%;
-  }
-.footer-container{
+}
+.footer-container {
   display: flex;
   justify-content: space-between;
   width: 70%;
-  padding:  .5rem ;
+  padding: 0.5rem;
   /* background: red; */
 }
 
-.footer-content{
+.footer-content {
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 1rem;
 }
-.footer-content p, p a{
- color: #6E7781;
- font-size: .8rem;
+.footer-content p,
+p a {
+  color: #6e7781;
+  font-size: 0.8rem;
 }
 .footer-socialiner-link-container {
   display: flex;
   gap: 1rem;
 }
-.footer-socialiner-link-container i{
-  color: #6E7781;
+.footer-socialiner-link-container i {
+  color: #6e7781;
   font-size: 1.5rem;
 }
 /* ////////////////////// footer End ///////////////////////// */
