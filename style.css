@@ -198,6 +198,16 @@
 .cli-interface-content p{
   color: var(--text-creamy-color);
 }
+.blue-text {
+  color: #2f80f7;
+}
+
+.yellow-text {
+  color: rgb(255, 255, 58);
+}.green-text {
+  color: rgb(42, 249, 42);
+}
+
 /* /////// sec 2 cli-interface-sec-container end /// */
 
 /* //////// sec 3 /////////////////// */
